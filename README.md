@@ -1,13 +1,13 @@
 # Sensor-Node-Optimization-RFID-based-
 
-#Abstract:
+# Abstract:
 Proposed a scheme that depends on Biogeographical based optimization (BBO) and Differential Evolution (DE) algorithms to solve a multi-objective optimization problem using a classical weighted sum approach fitness function that is derived from the combination of the following conflicting objectives:
     1. Maximizing target coverage 
     2. Maximizing network connectivity
     3. Minimizing the number of sensing nodes
     4. Minimizing overlapping between sensors 
     
-#The system model and problem formulation:
+# The system model and problem formulation:
 In the WSN model, we represent the target space that will be covered by a number of sensors as a 3-D grid. Sensors can be placed at these grid points and all the grid points (i.e. points of interest - PoIs) in the system need to be covered. Each point is represented by (x, y, z) dimensions. These sensor nodes will be placed into predetermined appropriate points (positions). There are some predefined appropriate positions where the sensor nodes will be placed to monitor the target. 
 It is assumed that WSN has the following properties: 
     • Base station, target points, and deployed sensor nodes are static.
